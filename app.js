@@ -11,7 +11,6 @@ const logTime = () => {
 };
 
 const log = (logData) => {
-    console.log(fileName);
     fs.appendFile(`${fileName}.log`, `${logTime()} ${logData} \n`, () => {});
 };
 
