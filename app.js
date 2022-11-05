@@ -16,13 +16,9 @@ const log = (logData) => {
 
 const getAnswerPromise = () => {
     return new Promise((resolve, reject) => {
-        input.question(
-            // "Угадай 1 или 2 ? \n",
-            "",
-            (answer) => {
-                resolve(answer);
-            }
-        );
+        input.question("", (answer) => {
+            resolve(answer);
+        });
     });
 };
 
