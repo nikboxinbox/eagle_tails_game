@@ -1,11 +1,26 @@
 {
-  "name": "eagle_tails_game",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "eagle_tails_game",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "etgame": "app.js"
+    },
+    "dependencies": {
+        "node.date-time": "^1.2.2"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nikboxinbox/eagle_tails_game.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nikboxinbox/eagle_tails_game/issues"
+    },
+    "homepage": "https://github.com/nikboxinbox/eagle_tails_game#readme",
+    "description": ""
 }
